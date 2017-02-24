@@ -1,0 +1,10 @@
+<h3>Categories</h3>
+<ul>
+    <li>
+        <a href="#" ui-sref="ticketer.categories">All items</a>
+    </li>
+    <hr>
+    <li ng-repeat="category in categoriesListController.categories">
+        <a href="#" ui-sref="ticketer.categories.items({category:category.name})">{{ category.name }}</a>
+    </li>
+</ul>

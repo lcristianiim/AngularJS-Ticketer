@@ -1,0 +1,20 @@
+<h1> {{ itemsListController.getCurrentCategoryName() }}</h1>
+
+<h3>Items</h3>
+
+<ul>
+    <li ng-repeat="item in itemsListController.items | filter:{category:itemsListController.getCurrentCategoryName()}">
+        {{ item.title }}
+        <a href="#" ui-sref="ticketer.categories.items.edit({itemId:item.id, itemCategory:item.category})">Edit</a>
+
+        <a href="#" ng-click="itemsListController.deleteItem(item)">Delete</a>
+    </li>
+</ul>
+
+<ui-view ng-if="itemsListController.getCurrentCategory()"
+         class="create-todo">
+    <hr>
+    <h3><a href="#" ui-sref="ticketer.categories.items.create" ng-click="startCreating()"> + Create item</a></h3>
+</ui-view>
+
+
