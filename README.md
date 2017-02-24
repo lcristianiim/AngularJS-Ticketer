@@ -2,7 +2,7 @@
 
 [![AngularJS](http://i.imgur.com/4DTvpLb.png)](http://162.243.86.132:4689)
 
-This app demonstrates the usage of AngularJS.
+This app demonstrates some of the best practices of tools in AngularJS.
 In this app you can create, update and delete items.
 
 ###  Elements covers
@@ -17,4 +17,4 @@ In this app you can create, update and delete items.
 * Services and models
 
 ## Demonstration
-[Live example](http://162.243.86.132:4689)
+[Live example](http://162.243.86.132:4690)
