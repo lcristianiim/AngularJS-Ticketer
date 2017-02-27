@@ -1,6 +1,6 @@
 # `$ AngularJS archetype application`
 
-[![AngularJS](http://i.imgur.com/4DTvpLb.png)](http://162.243.86.132:4689)
+[![AngularJS](http://i.imgur.com/72WtyWG.png)](http://162.243.86.132:4690)
 
 This app demonstrates some of the best practices of tools in AngularJS.
 In this app you can create, update and delete items.
